@@ -1,0 +1,42 @@
+{
+  "name": "vue-window-dimensions",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/vue-window-dimensions.umd.js",
+  "module": "dist/vue-window-dimensions.esm.js",
+  "unpkg": "dist/vue-window-dimensions.min.js",
+  "browser": {
+    "./sfc": "src/vue-window-dimensions.vue"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "scripts": {
+    "demo": "vue serve ./demo/example.vue",
+    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "build:umd": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format umd",
+    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "minimist": "^1.2.0",
+    "rollup": "^1.4.1",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-vue": "^4.7.2",
+    "vue": "^2.6.8",
+    "vue-template-compiler": "^2.6.8"
+  }
+}
