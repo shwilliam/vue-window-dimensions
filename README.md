@@ -8,7 +8,31 @@ Please note that there are other libraries that try to solve this same problem. 
 
 ## Installation
 
+Install the component from npm by running `npm i vue-window-dimensions` or `yarn add vue-window-dimensions`.
+
 ## Usage
+
+Import, register and place the component in your Vue app.
+
+```html
+<template>
+  <VueWindowDimensions>
+    <template slot-scope="{ dimensions }">
+      dimensions: {{ dimensions.width }}, {{ dimensions.height }}
+    </template>
+  </VueWindowDimensions>
+</template>
+```
+
+```js
+import VueWindowDimensions from 'vue-window-dimensions'
+
+export default {
+  components: {
+    VueWindowDimensions,
+  },
+}
+```
 
 ## Contributing
 
