@@ -1,7 +1,24 @@
 {
   "name": "vue-window-dimensions",
   "version": "0.1.0",
-  "description": "",
+  "description": "Declaratively use window dimensions in Vuejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/vue-window-dimensions.git"
+  },
+  "keywords": [
+    "vue",
+    "window",
+    "size",
+    "resize",
+    "dimensions"
+  ],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/vue-window-dimensions/issues"
+  },
+  "homepage": "https://github.com/shwilliam/vue-window-dimensions#readme",
   "main": "dist/vue-window-dimensions.umd.js",
   "module": "dist/vue-window-dimensions.esm.js",
   "unpkg": "dist/vue-window-dimensions.min.js",
