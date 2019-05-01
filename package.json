@@ -1,6 +1,6 @@
 {
   "name": "vue-window-dimensions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Declaratively use window dimensions in Vuejs",
   "repository": {
     "type": "git",
